@@ -2,7 +2,6 @@
 import os
 import requests
 from twilio.rest import Client
-import smtplib
 
 # Open Weather API Endpoints, Parameters
 API_KEY = os.environ.get("OWM_API_KEY")
